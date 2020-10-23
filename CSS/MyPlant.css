@@ -1,0 +1,51 @@
+body{
+    background-color: #17b8972e;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5ac99;
+}
+
+#mainNavbar .nav-link  {
+    color: #f5ac99; 
+}
+
+#mainNavbar .nav-link:hover  {
+    color: #fd714ee7; 
+    font-weight: bolder;
+}
+
+#mainNavbar .navbar-brand{
+    color: #fd714ee7/* its a maybe #b36d5c */;
+    font-weight: bolder;
+}
+
+img {
+    border:solid #f5ac99;
+}
+img:hover{
+    border:solid #fd714ee7 3px;
+}
+
+p:hover  {
+    color: #fd714ee7; 
+    font-weight: bolder;
+}
+
+#title{
+    color: #fd714ee7;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#title1{
+    color: #ff8566e7
+}
+#title2{
+    color: #fd9b82e7
+}
+#title3{
+    color: #fca58fe7
+}
+#title4{
+    color: #f8c0b2e7
+}
