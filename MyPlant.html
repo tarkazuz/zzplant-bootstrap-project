@@ -8,63 +8,119 @@
     <link rel="stylesheet" href="../Bootstrap Project/CSS/MyPlant.css">
 </head>
 <body>
-    <nav id="mainNavbar" class="navbar navbar-dark  navbar-expand-md fixed-top" style="background-color: rgba(16, 150, 123, 0.18)">
-        <a href="#" class="navbar-brand">ZZ Plant</a>
-        <button class="navbar-toggler" aria-label="Toggle navigation" data-toggle ="collapse" data-target="#nav-collapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nav-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href class="nav-link">Taking care of your plant</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-<section class="container">
+    <section class="container">
+        <nav id="mainNavbar" class="navbar navbar-dark  navbar-expand-md sticky-top" style="background-color: hsl(168deg 27% 62%)">
+            <a href="#" class="navbar-brand">ZZ Plant</a>
+            <button class="navbar-toggler" aria-label="Toggle navigation" data-toggle ="collapse" data-target="#nav-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#care" class="nav-link">Taking care of your plant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
        
-    <div class="row align-items-center">
-        <div class="col-md-6 text-center" id="title" >
-            <div> Zamioculcas zamiifolia </div>
-            <div id="title1"> Zamioculcas zamiifolia </div>
-            <div id="title2"> Zamioculcas zamiifolia </div>
-            <div id="title3"> Zamioculcas zamiifolia </div>
-            <div id="title4"> Zamioculcas zamiifolia </div> 
-
+        <div class="row align-items-center" id="home">
+                <div class="col-lg-6 text-center" id="title" >
+                    <div> Zamioculcas zamiifolia </div>
+                    <span area-hidden ="true" class=" d-none d-md-block">
+                    <div id="title1"> Zamioculcas zamiifolia </div>
+                    <div id="title2"> Zamioculcas zamiifolia </div>
+                    <div id="title3"> Zamioculcas zamiifolia </div>
+                    <div id="title4"> Zamioculcas zamiifolia </div> 
+                    </span> 
+                </div>  
+                <div class="col-lg-6 mt-1">
+                    <img src="../Bootstrap Project/Images/pino-nguyen-nG2Pxbglzkw-unsplash.jpg" width = 100% alt="">
+                </div>
         </div>
-        <div class="col-md-6">
-        <img src="../Bootstrap Project/Images/pino-nguyen-nG2Pxbglzkw-unsplash.jpg" width = 100% alt="">
-    </div>
     
-    <div class="row align-items-center">
-        <div class="col-md-6 order-md-last text-center"> 
-            <p> Text</p>
-        </div>
-        <div class="col-md-6 order-md-fisrt">
-            <img src="../Bootstrap Project/Images/pawel-czerwinski-QY9LOl9eZ9w-unsplash.jpg" width = 100% alt="">
+        <div class="row align-items-center" id="about">
+            <div class="col-lg-6 order-lg-last text-center mt-3"> 
+                <p> Zamioculcas (common names Zanzibar gem, ZZ plant, Zuzu plant,  eternity plant or emerald palm) is a genus of flowering plant in the family Araceae, containing the single species Zamioculcas zamiifolia. <br><br>
+                    It is a tropical perennial plant native to eastern Africa, from southern Kenya to northeastern South Africa. <br><br>
+                    Zamioculcas is grown as an ornamental plant, mainly for its attractive glossy foliage and easy care.</p>
+            </div>
+            <div class="col-lg-6 order-lg-fisrt">
+                <img src="../Bootstrap Project/Images/pawel-czerwinski-QY9LOl9eZ9w-unsplash.jpg" width = 100% alt="">
+            </div>
+
         </div>
 
-    </div>
-
-    <div class="row align-items-center">
-        <div class="col-md-6 text-center "> 
-            <p> Text</p>
+        <div class="row align-items-center" id="care">
+            <div class="col-lg-6 text-center mt-3 mb-5"> 
+                <p> ZZ Plant may survive outdoors as long as the temperature does not fall below around 15°C; though best growth is between 18°C to 26°C while hot temperatures give an increase of leaf production. In temperate regions, it is grown as a houseplant.<br><br> 
+                    Over watering may destroy this plant through tuber rot. Bright, indirect light is best for Zamioculcas: some sun will be tolerated.<br><br>
+                    Zamioculcas zamiifolia may be propagated by leaf cuttings: typically, the lower ends of detached leaves are inserted into a moist gritty compost and the pot enclosed in a polythene bag.</p>
+            </div>
+            <div class="col-lg-6 mb-5">
+                <img src="../Bootstrap Project/Images/pawel-czerwinski-lWBZ01XRRoI-unsplash.jpg" width= 100% margin= 5px alt="" > </div>
         </div>
-        <div class="col-md-6">
-            <img src="../Bootstrap Project/Images/pawel-czerwinski-lWBZ01XRRoI-unsplash.jpg" width= 100% margin= 5px alt="" > </div>
-    </div>
+
+        <div class="row align-items-center" id="contact">
+            <div class="col-lg-6 text-center" id="title" >
+                <div> Zamioculcas zamiifolia </div>
+                <span area-hidden ="true" class=" d-none d-md-block">
+                <div id="title1"> Zamioculcas zamiifolia </div>
+                <div id="title2"> Zamioculcas zamiifolia </div>
+                <div id="title3"> Zamioculcas zamiifolia </div>
+                <div id="title4"> Zamioculcas zamiifolia </div>
+                </span>
+            </div>
+            <div class="col-lg-6 text-center mt-1">
+                <form>
+                    <label>Name<input type="text" placeholder="Enter your name"></label><br>
+                    <label>Email<input type="email" required value="" placeholder="me@me.com" onchange ="check()" id="email" style="width:300px;"></label><br><br>
+                    <input type="text"  placeholder="Please enter your message" style="height:250px;width:300px;"><br><br>
+                    <input type="submit" onclick= "return check()" value="Ask us your question" class="submit">
+                <br><br>
+
+                <script>
+                    function check(){
+                        const email = document.querySelector("#email");
+                         if (email.value.length ==0){alert("Please enter an email");}
+                    }
+
+                </script>
+                </form>
+            </div>
+            <div class="row align-items-center" id="home">
+                <div class="col-lg-6 text-center" id="comment" >
+                    <div>
+                        <form id="commentForm">
+                            <label>Username<input type="text" required name="userName" id= "userName"> </label><br>
+                            <label>Comment<input type="text" placeholder="Please leave your comment here" style="height:100px;width:300px;"required name="comment" id='append'></label>
+                            <button class="submit" type="submit">Comment</button>
+                        </form>
+                        <section>
+                            <h2>Comments:</h2>
+                            <ul style="list-style-type: none" id="comments">
+
+                            </ul>
+                        </section>
+                    </div>
+                </div>  
+                <div class="col-lg-6 mt-1 mb-5">
+                    <img src="../Bootstrap Project/Images/pino-nguyen-nG2Pxbglzkw-unsplash.jpg" width = 100% alt="">
+                </div>
+        </div>
 
 </section>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="MyPlant.js"></script>
 
 </body>
 </html>
