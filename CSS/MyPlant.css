@@ -1,11 +1,11 @@
 body{
     background-color: #17b8972e;
     font-family: 'Courier New', Courier, monospace;
-    color: #f5ac99;
+    color: #fd714ee7;
 }
 
 #mainNavbar .nav-link  {
-    color: #f5ac99; 
+    color: #fd714ee7; 
 }
 
 #mainNavbar .nav-link:hover  {
@@ -48,4 +48,14 @@ p:hover  {
 }
 #title4{
     color: #f8c0b2e7
+}
+
+.submit{
+    background-color: #fd714ee7;
+    color: #f8c0b2e7;
+    font-weight: bolder;
+}
+
+#comments{
+    font-size: small;
 }
